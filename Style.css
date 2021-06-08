@@ -1,0 +1,25 @@
+.calculator{
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: darkslategrey;
+}
+.textArea-field{
+    width: 352px;
+    height: 49px;
+    margin-left: 22px;
+    margin-top: 57px;
+}
+.buttons{
+    width: 387px;
+    height: 415px;
+    margin: 0 auto;
+    background: rgb(46, 46, 61);
+    margin-top: 42px;
+}
+.keys{
+    height: 65px;
+    width: 65px;
+    margin-top: 15px;
+    margin-left: 23px;
+}

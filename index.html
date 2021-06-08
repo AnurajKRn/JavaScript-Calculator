@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href = "Style.css" rel = "stylesheet">
+    <script src= "Script.js"></script>
+</head>
+<body>
+    
+    <div class = "calculator">
+        <div class = "textArea">
+            <input class = "textArea-field" type = "text" id = "textField">         
+        </div>
+
+        <div class = buttons>
+            <div class = empty>
+                <button onclick="buttonClick(7)" class = "keys">Blank</button>
+                <button onclick="buttonClick(7)" class = "keys">Blank</button>
+                <button onclick="erase()" class = "keys">CLEAR</button>
+                <button onclick="clearBtn()" class = "keys">C</button>
+            </div>
+            <div class = top>
+                <button onclick="buttonClick(7)" class = "keys">7</button>
+                <button onclick="buttonClick(8)" class = "keys">8</button>
+                <button onclick="buttonClick(9)" class = "keys">9</button>
+                <button onclick="buttonClick('/')" class = "keys">/</button>
+            </div>
+            <div class = mid>
+                <button onclick="buttonClick(4)" class = "keys">4</button>
+                <button onclick="buttonClick(5)" class = "keys">5</button>
+                <button onclick="buttonClick(6)" class = "keys">6</button>
+                <button onclick="buttonClick('*')" class = "keys">X</button>
+            </div>
+            <div class = low>
+                <button onclick="buttonClick(1)" class = "keys">1</button>
+                <button onclick="buttonClick(2)" class = "keys">2</button>
+                <button onclick="buttonClick(3)" class = "keys">3</button>
+                <button onclick="buttonClick('+')" class = "keys">+</button>
+            </div>
+            <div class = top>
+                <button onclick="buttonClick('.')" class = "keys">.</button>
+                <button onclick="buttonClick(0)" class = "keys">0</button>
+                <button onclick="equalClick('=')" class = "keys">=</button>
+                <button onclick="buttonClick('-')" class = "keys">- </button>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>
